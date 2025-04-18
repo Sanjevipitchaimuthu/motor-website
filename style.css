@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0a3d62;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: rgb(190, 227, 196);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #ebf581;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .parts-section, .about-section, .contact-section {
+    padding: 2em;
+    background-color: #f8f5f0;
+    margin: 1em;
+    border-radius: 8px;
+  }
+  
+  .parts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .part-card {
+    background-color: #eef2f4;
+    padding: 1em;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .part-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #2d3436;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0a3d62;
+    color: white;
+  }
+  
